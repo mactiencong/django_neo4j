@@ -1,0 +1,5 @@
+<ul>
+    {% for friend in friends %}
+    <li><a href="/person/{{friend.id}}">{{friend.name}}</a></li>
+    {% endfor %}
+</ul>
